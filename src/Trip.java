@@ -1,9 +1,13 @@
-public abstract class Trip {
+import java.util.ArrayList;
+
+public class Trip {
 
     protected String country;
     protected int duration;
     protected String city;
     protected String activities;
+
+
 
     public Trip (String country, int duration, String city, String activities)
     {
@@ -11,6 +15,7 @@ public abstract class Trip {
         this.duration = duration;
         this.city = city;
         this.activities = activities;
+
     }
 
     public String getCountry()
@@ -29,6 +34,9 @@ public abstract class Trip {
     {
         return activities;
     }
+
+
+
 
 
 
